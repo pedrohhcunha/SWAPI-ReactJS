@@ -1,0 +1,29 @@
+#filmes{
+    width: 100vw;
+    padding: 50px 5%;
+}
+#filmes h1{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 25px;
+}
+#filmes h1::after{
+    content: '';
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: yellow;
+}
+#filmes .area-filmes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}

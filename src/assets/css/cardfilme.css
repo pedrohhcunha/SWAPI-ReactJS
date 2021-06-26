@@ -1,0 +1,68 @@
+.card{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+.card .content{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.card span{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.card .content .img-area{
+    margin-right: 10px;
+    height: 200px;
+}
+.card .content .img-area img{
+    margin: 0;
+    border-radius: 5px;
+    height: 100%;
+    width: auto;
+}
+.card .content h2{
+    font-size: 20px;
+}
+.card  .content h3{
+    font-size: 12px;
+    color: rgb(255, 43, 43);
+}
+.card .content p{
+    font-size: 14px;
+    margin-top: 10px;
+    color: black;
+}
+.buttons{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+}
+.buttons button{
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 2px;
+    background: black;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s;
+}
+.buttons button:hover{
+    filter: brightness(.8);
+}
+.buttons button .icon{
+    margin-right: 10px;
+}
+.buttons .shareIcon{
+    font-size: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.area-right{
+    display: flex;
+    flex-wrap: wrap;
+}
